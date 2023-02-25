@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.portfolio__project {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323d;
+  border: 1px solid #33323d;
+  padding: 17px;
+  display: block;
+  max-width: 175px;
+  text-align: center;
+}
+
+.portfolio__project:hover {
+  background-color: #33323d;
+  color: #fff;
+}
+
+.portfolio__top-span {
+  transform: translateY(-106px);
+}
+
+.portfolio__bottom-span {
+  transform: translateY(98px);
+}
+
+.portfolio__heading {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+  margin-bottom: 28px;
+}
+.portfolio__paragraph {
+  color: #33323d;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}

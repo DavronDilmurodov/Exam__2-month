@@ -1,0 +1,58 @@
+.bookmark {
+  margin-bottom: 80px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 95px;
+  }
+
+  &__left {
+    max-width: 350px;
+    span {
+      opacity: 0.15;
+      background-color: #33323d;
+      display: flex;
+      max-width: 350px;
+      height: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1020px) {
+    margin-bottom: 177px;
+    .container {
+      padding: 0 20px;
+    }
+    &__left {
+      max-width: 281px;
+      h2 {
+        margin-bottom: 29px;
+      }
+
+      p {
+        font-size: 15px;
+        margin-bottom: 35px;
+      }
+    }
+
+    .portfolio__top-span {
+      transform: translateY(-35px);
+    }
+
+    .portfolio__bottom-span {
+      transform: translateY(35px);
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    margin-bottom: 97px;
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    &__left {
+      max-width: 311px;
+      margin-top: 64px;
+    }
+  }
+}
